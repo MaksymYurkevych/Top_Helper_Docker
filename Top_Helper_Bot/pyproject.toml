@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "top-helper-bot"
+version = "0.1.0"
+description = "Bot that helps you to handle your contacts and notes"
+authors = ["MaksymYurkevych <102907831+MaksymYurkevych@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "top_helper_bot"}]
+
+[tool.poetry.dependencies]
+python = "3.10.10"
+prettytable = "^3.6.0"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
